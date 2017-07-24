@@ -3,9 +3,10 @@ Arduino Pro Mini ICSP and FTDI Programming Board
 
 This shield is used to flash my Arduino Pro Mini with [OptiBoot](https://github.com/Optiboot/optiboot) bootloader and to upload sketch to it. Optiboot is less Flash consuming than classic one.
 
-Also, for 3.3V device upload at 57600 is slow so I'm using 250000 BPS upload. So I can upload faster and more than that bootloader is using 0.5K of flash instead of 2K, it's a double win configuration, especially with huge sketch like LMIC for my [Mini LORA Board](https://www.thethingsnetwork.org/forum/t/8059/).
+Also, for 3V3@8MHz devices, upload at 57600 is slow so I'm using 250KBPS upload. You can see [here](https://hallard.me/ulpnode-bootloader-1/) why. 
+So, I can upload faster and more than that, Optiboot is using 0.5K of flash instead of 2K, it's a double win configuration, especially with huge sketch like LMIC for my [Mini LORA Board](https://www.thethingsnetwork.org/forum/t/8059/).
 
-I'm using PCB boards with pogo pins and this avoid soldering any headers to the Mini Boards. 
+I'm using 2 PCB boards stacked with pogo pins and this avoid soldering any headers to the Mini Boards. 
 
 **Features**   
 
@@ -30,9 +31,11 @@ Boards
 ====== 
 
 **Top**
-<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/pictures/Pro-Mini-ICSP-FTDI-top.jpg" alt="Top">
+
+<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master§pictures/Pro-Mini-ICSP-FTDI-top.jpg" alt="Top">
 
 **Bottom**
+
 <img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-bot.jpg" alt="Bottom">
 
 
@@ -46,7 +49,7 @@ TBD
 Bootloaders
 ===========
 
-I've compiled some [bootloaders](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/bootloaders/) for you, use the one you prefer, I'm using:
+I've compiled some [bootloaders](https://github.com/hallard/Pro-Mini-ICSP-FTDI/tree/master/bootloaders) for you, use the one you prefer, I'm using:
 
 - optiboot_flash_atmega328p_250000_8MHZ.hex (250KBPS) on 3V3 8MHz Mini
 - optiboot_flash_atmega328p_250000_16MHZ.hex on 5V 16MHz Mini
