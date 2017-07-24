@@ -32,7 +32,7 @@ Boards
 
 **Top**
 
-<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master§pictures/Pro-Mini-ICSP-FTDI-top.jpg" alt="Top">
+<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-top.jpg" alt="Top">
 
 **Bottom**
 
