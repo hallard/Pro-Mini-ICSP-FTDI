@@ -67,7 +67,13 @@ I've compiled some [bootloaders](https://github.com/hallard/Pro-Mini-ICSP-FTDI/t
 - optiboot_flash_atmega328p_250000_8MHZ.hex (250KBPS) on 3V3 8MHz Mini
 - optiboot_flash_atmega328p_250000_16MHZ.hex on 5V 16MHz Mini
 
-I tested the 1MB ones, works fine also
+I tested the 1MB ones, works fine also, here below the configuration of Fuses and Lockbit I'm using
+
+**Fuse configuration**
+![Fuses](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-fuses.jpg)  
+
+**Lockbit**
+![Lockbit](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-lockbit.jpg)  
 
 License
 =======
