@@ -1,12 +1,12 @@
 Arduino Pro Mini ICSP and FTDI Programming Board
 ================================================
 
+![Board](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-assembled.png)  
+
 This shield is used to flash my Arduino Pro Mini with [OptiBoot](https://github.com/Optiboot/optiboot) bootloader and to upload sketch to it. Optiboot is less Flash consuming than classic one.
 
-Also, for 3V3@8MHz devices, upload at 57600 is slow so I'm using 250KBPS upload. You can see [here](https://hallard.me/ulpnode-bootloader-1/) why. 
-So, I can upload faster and more than that, Optiboot is using 0.5K of flash instead of 2K, it's a double win configuration, especially with huge sketch like LMIC for my [Mini LORA Board](https://www.thethingsnetwork.org/forum/t/8059/).
-
-I'm using 2 PCB boards stacked with pogo pins and this avoid soldering any headers to the Mini Boards. 
+Also, for 3V3 at 8MHz devices, upload at 57600 is slow, so I'm using 250KBPS upload. You can see [here](https://hallard.me/ulpnode-bootloader-1/) why and how to. 
+So, I can upload faster and more than that, Optiboot is using 0.5K of flash instead of 2K, it's a double win configuration, especially with huge sketch like LoraWan device with LMIC stack for my [Mini LORA Board](https://www.thethingsnetwork.org/forum/t/8059/).
 
 **Features**   
 
@@ -19,6 +19,12 @@ I'm using 2 PCB boards stacked with pogo pins and this avoid soldering any heade
 
 Detailed Description
 ====================
+
+Nothing special to say, it's just some wiring, ICSP pins for programming (Power+SPI+Reset), FTDI (Power+Reset+RX+TX) for flashing and a LED to power the board (see if ICSP connector is fitted with good pining)
+
+I'm using 2 PCB boards stacked with pogo pins and this avoid soldering any headers to the Mini Boards. 
+
+<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-stacked.jpg" alt="Bottom">
 
 Schematics
 ==========
@@ -44,7 +50,14 @@ You can order PCB at [PCBs.io](https://PCBs.io/share/rm2v2). PCBs.io give me rew
 Assembled boards (V1.0)
 =======================
 
-TBD
+**Populated**
+
+<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-assembled.jpg" alt="Bottom">
+
+**With Arduino Pro Mini on it**
+
+<img src="https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-with-mini.jpg" alt="Bottom">
+
 
 Bootloaders
 ===========
