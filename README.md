@@ -1,7 +1,7 @@
 Arduino Pro Mini ICSP and FTDI Programming Board
 ================================================
 
-![Board](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-assembled.png)  
+![Board](https://raw.githubusercontent.com/hallard/Pro-Mini-ICSP-FTDI/master/pictures/Pro-Mini-ICSP-FTDI-assembled.jpg)  
 
 This shield is used to flash my Arduino Pro Mini with [OptiBoot](https://github.com/Optiboot/optiboot) bootloader and to upload sketch to it. Optiboot is less Flash consuming than classic one.
 
